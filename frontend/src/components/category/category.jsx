@@ -113,7 +113,7 @@ const Category = () => {
       }
     } catch (error) {
       console.error(error);
-      toast.error("Error in updating. Please try again.");
+      toast.error("Error Updating. Try Again Manze.");
     }
   };
 
@@ -123,13 +123,13 @@ const Category = () => {
         <div class="custom-container">
           <ToastContainer />
           <div className="catheader">
-            <h3>Category List</h3>
+            <h3>Departments List</h3>
           </div>
           <div className="catcenter">
             <div class="custom-content">
               <div className="categorytask">
                 <Link to="/home/category/add" className="custom-btn btn-9">
-                  Add Category
+                  Create New Department
                 </Link>
               </div>
             </div>
@@ -178,7 +178,7 @@ const Category = () => {
             <div className="no-data-message">
               <img src={noData} alt="" className="nodata" />
               <p className="no-data-text">
-                No categories found. Add new categories to display in the list.
+                There are no Departments. Please Create More.
               </p>
             </div>
           )}

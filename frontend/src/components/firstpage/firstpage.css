@@ -34,7 +34,7 @@
 }
 .btn-custom {
   background-color: #fafafb;
-  color: #027fbd;
+  color: #dae90d;
   width: 10rem;
   margin-left: 1.5rem;
   height: 2.5rem;
@@ -65,12 +65,16 @@
   width: 400px;
 }
 .hubcontainer {
-  background: linear-gradient(
-      35deg,
-      rgb(171, 220, 247) 0%,
-      rgba(32, 155, 201, 0.74) 50%
+    background: linear-gradient(
+      160deg,
+      #ffe3b3,
+      #92de8b,
+      #0ab68b,
+      #028174,
+      #e8e4c9
+  
     ),
-    linear-gradient(145deg, rgb(171, 220, 247) 50%, rgba(32, 176, 201, 0.74) 0%);
+    linear-gradient(145deg, rgb(55, 153, 210) 50%, rgba(32, 176, 201, 0.74) 0%);
 
   min-height: 100vh;
   background-size: 100%;
@@ -83,11 +87,17 @@
 }
 .containerStyle {
   background: linear-gradient(
-      35deg,
-      rgb(171, 220, 247) 0%,
-      rgba(32, 155, 201, 0.74) 50%
-    ),
-    linear-gradient(145deg, rgb(171, 220, 247) 50%, rgba(32, 176, 201, 0.74) 0%);
+    160deg,
+    #ffe3b3,
+    #92de8b,
+    #0ab68b,
+    #028174,
+    #e8e4c9
+
+  ),
+  linear-gradient(145deg, rgb(171, 220, 247) 50%, rgba(32, 176, 201, 0.74) 0%);
+box-shadow: -5px 5px 8px #007932, 5px -5px 8px #154360;
+
   min-height: 100vh;
   background-size: 100%;
   background-position: center;
@@ -105,7 +115,7 @@
   color: transparent;
   -webkit-text-stroke: 1px #ffffff;
   background: url(../img/back.png);
-  -webkit-background-clip: text;
+  background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
 }

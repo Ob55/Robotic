@@ -102,7 +102,7 @@ function Login() {
                   onMouseEnter={() => setIsHoveredSignUp(true)}
                   onMouseLeave={() => setIsHoveredSignUp(false)}
                 >
-                  Signup
+                  Signup.
                 </Link>
               </li>
               <li className="nav">

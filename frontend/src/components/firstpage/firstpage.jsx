@@ -5,7 +5,7 @@ import blogo from "../img/Logo.png";
 import back2 from "../img/back2.png";
 import "./firstpage.css";
 import HashLoader from "react-spinners/HashLoader";
-import Footer from "../footer/footer";
+
 
 const FirstPage = () => {
   const [isHoveredSignUp, setIsHoveredSignUp] = useState(false);
@@ -73,7 +73,7 @@ const FirstPage = () => {
                       onMouseEnter={() => setIsHoveredSignUp(true)}
                       onMouseLeave={() => setIsHoveredSignUp(false)}
                     >
-                      Signup
+                      Start now, it's free
                     </Link>
                   </li>
                   <li className="nav">
@@ -97,14 +97,12 @@ const FirstPage = () => {
           <div className="groupedSectionStyle">
             <div className="newBox">
               <div className="tex">
-                Salary & Employee Management with
-                <span className="textbox"> Hub4</span>
+                Karibuni
+                <span className="textbox"> WorkWave </span>
               </div>
               <div className="otherStyle">
-                Unlock a new era of streamlined employee management with Hub4's
-                dedicated dashboard. Designed to simplify your management
-                processes, this centralized hub ensures that tracking employee
-                numbers and managing salaries becomes a breeze.
+              We are revolutionizing the work enviroment with robotics and Artificial Intelligence. 
+              Our solutions streamline recruitment & management using robots. Perfection is guaranteed.
               </div>
             </div>
             <div className="design">
@@ -114,7 +112,7 @@ const FirstPage = () => {
             </div>
           </div>
           <div>
-            <Footer />
+
           </div>
         </div>
       )}

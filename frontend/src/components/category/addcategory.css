@@ -8,7 +8,7 @@
 .addcatcontent {
   width: 70%;
   padding: 20px;
-  box-shadow: 5px 5px 12px #d3d3d3, -5px -5px 12px #f2f2f2;
+  box-shadow: 5px 5px 12px #007932, -5px -5px 12px #008738;
 }
 
 .text-center {
@@ -32,7 +32,7 @@
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  color: #495057;
+  color: #0d70d2;
   background-color: #fff;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -40,8 +40,8 @@
 }
 
 .addcat:focus {
-  border-color: #80bdff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 157, 255, 0.25);
+  border-color: #0C77B9;
+  box-shadow: 0 0 0 0.2rem #0d70d2(255, 0, 0, 0.25);
 }
 
 .addcatgroup {
@@ -57,29 +57,29 @@
 
 .cat-save {
   padding: 8px 22px;
-  background-color: #03a6d8;
+  background-color: #0C77B9;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .cat-save:hover {
-  background-color: #0185ad;
+  background-color: #46c3ea;
 }
 .cat-close {
   padding: 8px 22px;
-  background-color: #f10707e4;
+  background-color: #ff0000e4;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .cat-close:hover {
-  background-color: #d70303e4;
+  background-color: #e73e3ee4;
 }
 
 @media (max-width: 800px) {

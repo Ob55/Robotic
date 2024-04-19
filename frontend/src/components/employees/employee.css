@@ -32,17 +32,17 @@
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color: #03a6d8;
+  background-color: #008738;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
 }
 
 .emp-btn:hover {
-  background-color: #0185ad;
+  background-color: #3abd73;
 }
 
 @media screen and (max-width: 768px) {
@@ -154,29 +154,29 @@
 }
 
 .customedit {
-  background-color: #13aad8;
+  background-color: #154360;
   color: #fff;
   border: 1px solid #13aad8;
   padding: 8px 16px;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .customedit:hover {
-  background-color: #0193c0;
+  background-color: #11647e;
   border-color: #0193c0;
 }
 .customdelete {
-  background-color: #f10707e4;
+  background-color: crimson;
   color: #fff;
-  border: 1px solid #f10707e4;
+  border: 1px solid #ae4545e4;
   padding: 6px 12px;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .customdelete:hover {
-  background-color: #d70303e4;
+  background-color: #ce3c3ce4;
   border-color: #d70303e4;
 }
 

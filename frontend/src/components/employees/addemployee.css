@@ -9,7 +9,7 @@
 .addempcontent {
   width: 60%;
   padding: 20px;
-  box-shadow: 5px 5px 12px #d3d3d3, -5px -5px 12px #f2f2f2;
+  box-shadow: 5px 5px 12px #008738, -5px -5px 12px #008738;
 }
 
 .text-center {
@@ -64,7 +64,7 @@
 }
 
 .addemp:focus {
-  border-color: #80bdff;
+  border-color: #007932;
   box-shadow: 0 0 0 0.2rem rgba(0, 157, 255, 0.25);
 }
 
@@ -77,10 +77,10 @@
 
 .editemp-save {
   padding: 8px 22px;
-  background-color: #03a6d8;
+  background-color: #FFC300;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -90,10 +90,10 @@
 }
 .editemp-close {
   padding: 8px 22px;
-  background-color: #f10707e4;
+  background-color: crimson;
   color: #ffffff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

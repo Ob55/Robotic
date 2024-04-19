@@ -6,7 +6,7 @@ const Update = ({ onClose, onUpdate, categoryId, cname, description }) => {
   const [updatedDescription, setUpdatedDescription] = useState(description);
   const handleUpdate = () => {
     onUpdate(categoryId, updatedName, updatedDescription);
-    // Close the modal
+    // Close the model
     onClose();
   };
 
@@ -17,11 +17,11 @@ const Update = ({ onClose, onUpdate, categoryId, cname, description }) => {
   return (
     <div className="update-overlay">
       <div className="update-content">
-        <h3 className="updatetext">Update Category</h3>
+        <h3 className="updatetext">Update Department</h3>
         <input
           type="text"
           className="todo-input"
-          placeholder="Category"
+          placeholder="Department"
           value={updatedName}
           onChange={(e) => setUpdatedName(e.target.value)}
         />
@@ -33,10 +33,10 @@ const Update = ({ onClose, onUpdate, categoryId, cname, description }) => {
         />
         <div className="btns2">
           <button className="btnup " onClick={handleUpdate}>
-            Update
+            ^ Update
           </button>
           <button className="btns " onClick={handleClose}>
-            Close
+            X Cancel
           </button>
         </div>
       </div>

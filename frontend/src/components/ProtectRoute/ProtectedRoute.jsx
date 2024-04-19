@@ -90,19 +90,19 @@ const ProtectedRoute = ({ children }) => {
       onClick: () => navigate("/home/employee"),
     },
     {
-      title: "Category",
+      title: "Departments",
       path: "/home/category",
       icon: <MdOutlineFormatListBulleted className="react-icon" />,
       onClick: () => navigate("/home/category"),
     },
     {
-      title: "Profile",
+      title: "My Profile",
       path: "/home/profile",
       icon: <FaUserCircle className="react-icon" />,
       onClick: () => navigate("/home/profile"),
     },
     {
-      title: "Homepage",
+      title: "Home",
       path: "/",
       icon: <FaHome className="react-icon" />,
       onClick: logout,
@@ -157,7 +157,7 @@ const ProtectedRoute = ({ children }) => {
           </div>
           <Link to="/login" onClick={logout} className="snav-link">
             <FaSignOutAlt className="react-icon" />
-            <span className="nav-link-name">Logout</span>
+            <span className="nav-link-name">LogOut</span>
           </Link>
         </nav>
       </aside>

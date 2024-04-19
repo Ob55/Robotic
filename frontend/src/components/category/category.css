@@ -20,17 +20,19 @@
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background-color: #03a6d8; /* Choose your preferred background color */
-  color: #ffffff; /* Choose your preferred text color */
+   /* Choose your preferred background color */
+  background-color: #008738;
+  /* Choose your preferred text color */
   border: none;
-  border-radius: 10px;
+  color: #ffffff; 
+  border-radius: px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-align: center;
 }
 
 .custom-btn:hover {
-  background-color: #0185ad; /* Adjust hover background color */
+  background-color: #4cae75;
 }
 
 @media (max-width: 800px) {

@@ -81,17 +81,17 @@ const AddEmployee = () => {
       <ToastContainer />
       <div className="addempcontainer">
         <div className="addempcontent rounded border">
-          <h3 className="text-center">Add Employee</h3>
+          <h3 className="text-center">Add New Employee</h3>
           <form className="addempform" onSubmit={submitForm}>
             <div className="addempgroup">
               <label htmlFor="inputName" className="form-label">
-                Name
+                Names
               </label>
               <input
                 type="text"
                 className="addemp form-control"
                 id="inputName"
-                placeholder="Enter Name"
+                placeholder="Enter Full Name"
                 required
               />
             </div>
@@ -103,7 +103,7 @@ const AddEmployee = () => {
                 type="email"
                 className="addemp form-control"
                 id="inputEmail4"
-                placeholder="Enter Email"
+                placeholder="...@gmail.com"
                 required
                 autoComplete="off"
               />
@@ -123,7 +123,7 @@ const AddEmployee = () => {
                 type={showPassword ? "text" : "password"}
                 className="addemp form-control"
                 id="inputPassword4"
-                placeholder="Enter Password"
+                placeholder="Input Password"
                 required
               />
             </div>
@@ -135,27 +135,27 @@ const AddEmployee = () => {
                 type="text"
                 className="addemp form-control"
                 id="inputSalary"
-                placeholder="Enter Salary"
+                placeholder="Amount in KES"
                 required
                 autoComplete="off"
               />
             </div>
             <div className="addempgroup">
               <label htmlFor="inputAddress" className="form-label">
-                Address
+                Location
               </label>
               <input
                 type="text"
                 className="addemp form-control"
                 id="inputAddress"
-                placeholder="ABC Apartments"
+                placeholder="Embakasi"
                 required
                 autoComplete="off"
               />
             </div>
             <div className="addempgroup">
               <label htmlFor="category" className="form-label">
-                Category
+                Department
               </label>
               <select name="category" id="category" className="form-select">
                 {categoriesList.map((c) => {
@@ -165,14 +165,14 @@ const AddEmployee = () => {
             </div>
             <div className="editempgroup">
               <button type="submit" className="editemp-save">
-                Add
+                + Add
               </button>
               <button
                 type="submit"
                 className="editemp-close"
                 onClick={() => navigate("/home/employee")}
               >
-                Close
+                X Cancel
               </button>
             </div>
           </form>

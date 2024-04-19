@@ -141,7 +141,7 @@ function Signup() {
             className="d-flex justify-content-center align-items-center"
             style={{ color: "#262626", fontWeight: "550" }}
           >
-            Create an account
+          Karibu, Let's Create you an account !
           </h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -150,7 +150,7 @@ function Signup() {
                 style={{ color: "#262626", fontWeight: "550" }}
               >
                 <label className="formLabel" htmlFor="name">
-                  Name
+                  Full Name
                 </label>
               </div>
               <input
@@ -171,7 +171,7 @@ function Signup() {
                   htmlFor="email"
                   style={{ color: "#262626", fontWeight: "550" }}
                 >
-                  Email
+                  Email Address
                 </label>
               </div>
               <input
@@ -192,7 +192,7 @@ function Signup() {
                   htmlFor="password"
                   style={{ color: "#262626", fontWeight: "550" }}
                 >
-                  Password
+                Create New Password
                 </label>
                 <div className="showpass">
                   <button onClick={(event) => handleShowPassword(event)}>
@@ -217,7 +217,7 @@ function Signup() {
                   htmlFor="confirmp"
                   style={{ color: "#262626", fontWeight: "550" }}
                 >
-                  Confirm Password
+                Confirm New Password
                 </label>
                 <div className="showpass">
                   <button onClick={(event) => handleShowConfirmPassword(event)}>
@@ -256,7 +256,7 @@ function Signup() {
                     color: "#FFF",
                   }}
                 >
-                  Register
+                Sign Me Up
                 </button>
               </div>
             </div>
@@ -270,7 +270,7 @@ function Signup() {
               to="/login"
               style={{ color: " #FFF", textDecoration: "none" }}
             >
-              Login
+              Just Login
             </Link>
           </p>
         </div>

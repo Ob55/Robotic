@@ -2,7 +2,7 @@
   --header-height: 3.5rem;
   --nav-width: 68px;
 
-  --first-color: #0193c0;
+  --first-color: #154360;
   --first-color-alt: #ffffff;
   --white-color: #ffffff;
 }
@@ -41,7 +41,7 @@ main {
   justify-content: space-between;
   align-items: center;
   background-color: var(--white-color);
-  box-shadow: -5px 5px 8px #c6c6c7, 5px -5px 8px #afafb1;
+  box-shadow: -5px 5px 8px #d9d8d8, 5px -5px 8px #afafb1;
   padding: 0 1rem;
   transition: 0.5s;
 }
@@ -53,7 +53,7 @@ main {
 }
 
 .sidebar {
-  position: fixed;
+  position:fixed ;
   z-index: 10;
   top: 0;
   left: -30%;

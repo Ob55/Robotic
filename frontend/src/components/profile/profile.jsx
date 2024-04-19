@@ -28,7 +28,7 @@ const Profile = () => {
     <div>
       <div className="procontainer">
         <div className="procontent rounded border">
-          <h3 className="text-center">Profile</h3>
+          <h3 className="text-center"> My Profile</h3>
           <form className="proform">
             <div className="circle-container">
               <div className="circle">
@@ -37,13 +37,13 @@ const Profile = () => {
             </div>
             <div className="progroup">
               <label htmlFor="name" className="form-label">
-                <strong>Name:</strong>
+                <strong>My Name:</strong>
               </label>
               <h3 className="pro">{name || "user"}</h3>
             </div>
             <div className="progroup">
               <label htmlFor="description" className="form-label">
-                <strong>Email:</strong>
+                <strong>My Email:</strong>
               </label>
               <h3 className="pro">{email || "userEmail"}</h3>
             </div>

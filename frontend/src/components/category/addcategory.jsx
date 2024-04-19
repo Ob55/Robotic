@@ -35,11 +35,11 @@ const AddCategory = () => {
     <div>
       <div className="addcatcontainer">
         <div className="addcatcontent rounded border">
-          <h3 className="text-center">Add Category</h3>
+          <h3 className="text-center">Add New Department</h3>
           <form className="addcatform" onSubmit={handleSubmit}>
             <div className="addcatgroup">
               <label htmlFor="name" className="form-label">
-                <strong>Name:</strong>
+                <strong>Department Name </strong>
               </label>
               <input
                 type="text"
@@ -53,12 +53,12 @@ const AddCategory = () => {
             </div>
             <div className="addcatgroup">
               <label htmlFor="description" className="form-label">
-                <strong>Description:</strong>
+                <strong>Description</strong>
               </label>
               <textarea
                 id="description"
                 className="addcat form-control custom-scrollbar"
-                placeholder="Category Description"
+                placeholder="Dept. Description"
                 required
                 value={categoryDescription}
                 onChange={(e) => setCategoryDescription(e.target.value)}
@@ -67,14 +67,14 @@ const AddCategory = () => {
             </div>
             <div className="addcatbtngroup">
               <button type="submit" className="cat-save">
-                Add
+                + Add
               </button>
               <button
                 type="submit"
                 className="cat-close"
                 onClick={() => navigate("/home/category")}
               >
-                Close
+               X  Cancel 
               </button>
             </div>
           </form>

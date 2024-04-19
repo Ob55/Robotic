@@ -98,7 +98,7 @@ const SideNavbar = () => {
                 <div className="circles">
                   <FaUserCircle className="adminprofile" />
                 </div>
-                <h4>Admin</h4>
+                <h4>Manager Name</h4>
               </div>
               <hr />
               <div className="flex-row">
@@ -109,7 +109,7 @@ const SideNavbar = () => {
 
             <div className="custom-box">
               <div className="custom-heading">
-                <h4>Employee</h4>
+                <h4>No. of Employees</h4>
               </div>
               <hr />
               <div className="flex-row">
@@ -125,7 +125,7 @@ const SideNavbar = () => {
               <hr />
               <div className="flex-row">
                 <h5>Total:</h5>
-                <h5>${salaryTotal}</h5>
+                <h5>KES {salaryTotal}</h5>
               </div>
             </div>
           </div>
@@ -140,9 +140,9 @@ const SideNavbar = () => {
                   <tr>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Salary</th>
-                    <th>Address</th>
-                    <th>Category</th>
+                    <th>Salary(KES)</th>
+                    <th>Location</th>
+                    <th>Department</th>
                   </tr>
                 </thead>
                 <tbody>

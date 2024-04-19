@@ -63,13 +63,13 @@ const Employees = () => {
       <div className="empcontainer">
         <ToastContainer />
         <div className="empheader">
-          <h3>Employee List</h3>
+          <h3>Available Employees</h3>
         </div>
         <div className="empcenter">
           <div class="empcustom-content">
             <div className="emptask">
               <Link to="/home/employee/add" className="emp-btn btn-9">
-                <span>Add Employee</span>
+                <span>Add New Employee </span>
               </Link>
             </div>
           </div>
@@ -80,9 +80,9 @@ const Employees = () => {
               <div className="employee-card" key={e._id}>
                 <h4>{e.name}</h4>
                 <p>Email: {e.email}</p>
-                <p>Salary: {e.salary}</p>
-                <p>Address: {e.address}</p>
-                <p>Category: {e.categorys}</p>
+                <p>Salary(KES): {e.salary}</p>
+                <p>Location: {e.address}</p>
+                <p>Department: {e.categorys}</p>
                 <div
                   className="employee-card-actions"
                   style={{ justifyContent: "flex-end" }}
@@ -91,13 +91,13 @@ const Employees = () => {
                     to={`/home/employee/edit/${e._id}`}
                     className="customedit btn-sm me-2"
                   >
-                    Edit
+                   Edit
                   </Link>
                   <button
                     className="customdelete btn-sm"
                     onClick={() => deleteEmployee(e._id)}
                   >
-                    Delete
+                      Terminate
                   </button>
                 </div>
               </div>
@@ -107,7 +107,7 @@ const Employees = () => {
           <div className="no-data-message">
             <img src={noData} alt="" className="nodata" />
             <p className="no-data-text">
-              No employees found. Add new employees to display in the list.
+              You Have No Employees.Consider Recruiting.
             </p>
           </div>
         )}

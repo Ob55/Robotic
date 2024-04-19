@@ -12,7 +12,7 @@
 /*dashboard styling*/
 .container {
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #c5cdcd;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -26,7 +26,7 @@
 
 .custom-box {
   background: #ffffff;
-  box-shadow: 5px 5px 12px #d3d3d3, -5px -5px 12px #f2f2f2;
+  box-shadow: 5px 5px 12px #b36e6e, -5px -5px 12px #828785;
   border-radius: 10px;
   width: 30%;
   padding: 30px;
@@ -47,13 +47,13 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .adminprofile {
-  color: #5cb8d4;
+  color: #154360;
   height: 60px;
   width: 60px;
 }
@@ -87,7 +87,7 @@
 }
 
 .btn-info {
-  background-color: #5bc0de;
+  background-color: #154360;
   color: #fff;
 }
 

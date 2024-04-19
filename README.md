@@ -1,12 +1,22 @@
-Home page
-<img width="960" alt="hub4" src="https://github.com/SaumyaaPrajapat/Hub-4/assets/103128269/af141195-fc87-41e2-963d-6f73ad652206">
 
-Signup page
-<img width="958" alt="hub4-signup" src="https://github.com/SaumyaaPrajapat/Hub-4/assets/103128269/d7ba6e86-cff6-40fb-811b-a73003741058">
+# [WorkWave] Employee Management 
 
-Login page
-<img width="960" alt="hub4-login" src="https://github.com/SaumyaaPrajapat/Hub-4/assets/103128269/4d0b04a1-7f3a-4891-8a66-d7c170696cee">
+## About the system
+WorkWave is a web application built using React for efficient management of employee data. This system provides a user-friendly interface for adding, updating, and deleting employee information.
 
-Dashboard
-<img width="960" alt="hub4-dash" src="https://github.com/SaumyaaPrajapat/Hub-4/assets/103128269/bd7017d2-86d7-486b-86d7-c3acbbe52493">
-# ROBOTS
+## Major Features
+- 1.**Add Employee:** The administrator can be able to add new employees' basic details.
+- 2.**View Employee List:** This displays the entire list of all employees and their details.
+- 3.**Update Employee:** Here, we can edit and update the information of existing employees.
+- 4.**Delete Employee:** Fire employees using the system.
+
+## Languages that have been used
+- React
+- React Router
+- TailwindCSS
+
+## Desired future implementation
+- make it accessible by several managers ie HR, Administrators and Employees
+- Generate a report for all the employees' productivity
+- Show employee availability status
+- Calculate salary bonuses based on productivity

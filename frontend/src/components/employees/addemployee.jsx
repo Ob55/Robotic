@@ -142,6 +142,19 @@ const AddEmployee = () => {
             </div>
             <div className="addempgroup">
               <label htmlFor="inputAddress" className="form-label">
+                Project
+              </label>
+              <input
+                type="text"
+                className="addemp form-control"
+                id="Assign project"
+                placeholder="Managing..."
+                required
+                autoComplete="off"
+              />
+            </div>
+            <div className="addempgroup">
+              <label htmlFor="inputAddress" className="form-label">
                 Location
               </label>
               <input

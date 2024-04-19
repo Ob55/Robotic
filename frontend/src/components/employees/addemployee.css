@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
-  padding-bottom: 2rem;
+  margin-top: 2%;
+  padding-bottom: 1rem;
 }
 
 .addempcontent {
   width: 60%;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 5px 5px 12px #008738, -5px -5px 12px #008738;
 }
 
@@ -54,7 +54,7 @@
 
 .passwords {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 .showpassword button {
@@ -71,12 +71,12 @@
 .editempgroup {
   margin-bottom: 1rem;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
 }
 
 .editemp-save {
-  padding: 8px 22px;
+  padding: 8px 12px;
   background-color: #FFC300;
   color: #ffffff;
   border: none;
@@ -110,8 +110,8 @@
     width: 80%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .addempcontent {
-    width: 90%;
+    width: 80%;
   }
 }

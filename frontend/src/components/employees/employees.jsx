@@ -83,6 +83,7 @@ const Employees = () => {
                 <p>Salary(KES): {e.salary}</p>
                 <p>Location: {e.address}</p>
                 <p>Department: {e.categorys}</p>
+                <p>project:{e.project}</p>
                 <div
                   className="employee-card-actions"
                   style={{ justifyContent: "flex-end" }}

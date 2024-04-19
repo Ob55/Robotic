@@ -94,6 +94,7 @@ const EditEmployee = () => {
           <h3 className="text-center">Edit Employee</h3>
           <form className="addempform" onSubmit={handleSubmit}>
             <div className="addempgroup">
+              <div class = "scroll-container">
               <label htmlFor="inputName" className="form-label">
                 Names
               </label>
@@ -141,6 +142,21 @@ const EditEmployee = () => {
                 required
                 value={employeeData.password}
                 onChange={(e) => handleInputChange(e, "password")}
+              />
+            </div>
+            <div className="addempgroup">
+              <label htmlFor="input project" className="form-label">
+                Project
+              </label>
+              <input
+                type="text"
+                className="addemp form-control"
+                id="inputSalary"
+                placeholder="Assigned Project"
+                required
+                autoComplete="off"
+                value={employeeData.salary}
+                onChange={(e) => handleInputChange(e, "project")}
               />
             </div>
             <div className="addempgroup">
@@ -193,6 +209,7 @@ const EditEmployee = () => {
                 })}
               </select>
             </div>
+
             <div className="editempgroup">
               <button type="submit" className="editemp-save">
                 ^ Update
@@ -204,6 +221,7 @@ const EditEmployee = () => {
               >
                 X Cancel
               </button>
+              </div>
             </div>
           </form>
         </div>

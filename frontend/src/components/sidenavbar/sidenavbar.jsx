@@ -143,6 +143,7 @@ const SideNavbar = () => {
                     <th>Salary(KES)</th>
                     <th>Location</th>
                     <th>Department</th>
+                    <th>Project</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -154,6 +155,7 @@ const SideNavbar = () => {
                         <td>{e.salary}</td>
                         <td>{e.address}</td>
                         <td>{e.categorys}</td>
+                        <td>{e.project}</td>
                       </tr>
                     ))
                   ) : (
